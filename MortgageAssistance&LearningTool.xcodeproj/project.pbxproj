@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55C21BB073E900254F27 /* AppDelegate.swift */; };
+		753A55CA1BB073E900254F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753A55C91BB073E900254F27 /* Images.xcassets */; };
+		753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753A55CB1BB073E900254F27 /* LaunchScreen.xib */; };
+		753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E21BB0753B00254F27 /* MenuViewController.swift */; };
+		753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E41BB0755100254F27 /* BaseViewController.swift */; };
+		C6EEF9F61CB7E2AD00A3DC6D /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */; };
+		C6EEF9F81CB7E4E000A3DC6D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */; };
+		D80A30B51E37E4F100226FE4 /* houseymchouseface.png in Resources */ = {isa = PBXBuildFile; fileRef = D80A30B31E37E4F100226FE4 /* houseymchouseface.png */; };
+		D821941F1E3B6B4B009E0166 /* Tracker_MortgageBreakdown.png in Resources */ = {isa = PBXBuildFile; fileRef = D821941E1E3B6B4B009E0166 /* Tracker_MortgageBreakdown.png */; };
+		D82194211E3B6E54009E0166 /* FixedRateFormula.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194201E3B6E54009E0166 /* FixedRateFormula.png */; };
+		D82194241E3B6F78009E0166 /* Tracker_ExampleMortgage1Calc.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194221E3B6F78009E0166 /* Tracker_ExampleMortgage1Calc.png */; };
+		D82194251E3B6F78009E0166 /* Tracker_ExampleMortgage1Ans.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194231E3B6F78009E0166 /* Tracker_ExampleMortgage1Ans.png */; };
+		D82194271E3B757A009E0166 /* Tracker_TotAmountPaid.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194261E3B757A009E0166 /* Tracker_TotAmountPaid.png */; };
+		D82194291E3B77D9009E0166 /* Tracker_InterestCalc.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194281E3B77D9009E0166 /* Tracker_InterestCalc.png */; };
+		D821942E1E3BA1AA009E0166 /* TraAveFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821942D1E3BA1AA009E0166 /* TraAveFutRatVC.swift */; };
+		D82194301E3BA1CE009E0166 /* TraNegFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D821942F1E3BA1CE009E0166 /* TraNegFutRatVC.swift */; };
+		D82194321E3BA1DE009E0166 /* DisPosFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194311E3BA1DE009E0166 /* DisPosFutRatVC.swift */; };
+		D82194341E3BA1EE009E0166 /* DisAveFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194331E3BA1EE009E0166 /* DisAveFutRatVC.swift */; };
+		D82194361E3BA201009E0166 /* DisNegFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194351E3BA201009E0166 /* DisNegFutRatVC.swift */; };
+		D82194381E3BA7FB009E0166 /* TraPosFutRatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194371E3BA7FB009E0166 /* TraPosFutRatVC.swift */; };
+		D821943A1E40F8AA009E0166 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194391E40F8AA009E0166 /* AboutVC.swift */; };
+		D821943D1E41014F009E0166 /* CBodger.png in Resources */ = {isa = PBXBuildFile; fileRef = D821943B1E41014F009E0166 /* CBodger.png */; };
+		D821943E1E41014F009E0166 /* HTong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D821943C1E41014F009E0166 /* HTong.jpg */; };
+		D82194401E410461009E0166 /* HouseyInspiration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D821943F1E410461009E0166 /* HouseyInspiration.jpg */; };
+		D82194421E4116C6009E0166 /* thumbsuphousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194411E4116C6009E0166 /* thumbsuphousey.png */; };
+		D82194441E411912009E0166 /* Mark-Kelmanson.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194431E411911009E0166 /* Mark-Kelmanson.png */; };
+		D82194461E41192E009E0166 /* Onno-Bokhove.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194451E41192E009E0166 /* Onno-Bokhove.png */; };
+		D82194481E4201C9009E0166 /* FormulaDeriveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82194471E4201C9009E0166 /* FormulaDeriveVC.swift */; };
+		D821944A1E421A76009E0166 /* FixedRateExample.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194491E421A76009E0166 /* FixedRateExample.png */; };
+		D821944F1E422706009E0166 /* FixedRateProof1.png in Resources */ = {isa = PBXBuildFile; fileRef = D821944B1E422706009E0166 /* FixedRateProof1.png */; };
+		D82194501E422706009E0166 /* FixedRateProof2.png in Resources */ = {isa = PBXBuildFile; fileRef = D821944C1E422706009E0166 /* FixedRateProof2.png */; };
+		D82194511E422706009E0166 /* FixedRateProof3.png in Resources */ = {isa = PBXBuildFile; fileRef = D821944D1E422706009E0166 /* FixedRateProof3.png */; };
+		D82194521E422706009E0166 /* FixedRateProof4.png in Resources */ = {isa = PBXBuildFile; fileRef = D821944E1E422706009E0166 /* FixedRateProof4.png */; };
+		D82194551E42280A009E0166 /* FixedRateProof5.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194531E42280A009E0166 /* FixedRateProof5.png */; };
+		D82194561E42280A009E0166 /* FixedRateProof6.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194541E42280A009E0166 /* FixedRateProof6.png */; };
+		D821945A1E4230B0009E0166 /* HouseyBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D82194591E4230B0009E0166 /* HouseyBubble.png */; };
+		D825D1FD1E53394C0058E1B4 /* SummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D825D1FC1E53394C0058E1B4 /* SummaryVC.swift */; };
+		D825D1FF1E533D880058E1B4 /* redhousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D825D1FE1E533D880058E1B4 /* redhousey.png */; };
+		D825D2041E5471A90058E1B4 /* graph1.png in Resources */ = {isa = PBXBuildFile; fileRef = D825D2001E5471A90058E1B4 /* graph1.png */; };
+		D825D2051E5471A90058E1B4 /* graph2.png in Resources */ = {isa = PBXBuildFile; fileRef = D825D2011E5471A90058E1B4 /* graph2.png */; };
+		D825D2061E5471A90058E1B4 /* graph3.png in Resources */ = {isa = PBXBuildFile; fileRef = D825D2021E5471A90058E1B4 /* graph3.png */; };
+		D825D2071E5471A90058E1B4 /* graph4.png in Resources */ = {isa = PBXBuildFile; fileRef = D825D2031E5471A90058E1B4 /* graph4.png */; };
+		D829B4161DDBC28700ADE68B /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D829B4151DDBC28700ADE68B /* LandingVC.swift */; };
+		D829B4301DDBC37300ADE68B /* giphy-1 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4171DDBC37300ADE68B /* giphy-1 (dragged).jpg */; };
+		D829B4311DDBC37300ADE68B /* giphy-2 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4181DDBC37300ADE68B /* giphy-2 (dragged).jpg */; };
+		D829B4321DDBC37300ADE68B /* giphy-3 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4191DDBC37300ADE68B /* giphy-3 (dragged).jpg */; };
+		D829B4331DDBC37300ADE68B /* giphy-4 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41A1DDBC37300ADE68B /* giphy-4 (dragged).jpg */; };
+		D829B4341DDBC37300ADE68B /* giphy-5 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41B1DDBC37300ADE68B /* giphy-5 (dragged).jpg */; };
+		D829B4351DDBC37300ADE68B /* giphy-6 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41C1DDBC37300ADE68B /* giphy-6 (dragged).jpg */; };
+		D829B4361DDBC37300ADE68B /* giphy-7 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41D1DDBC37300ADE68B /* giphy-7 (dragged).jpg */; };
+		D829B4371DDBC37300ADE68B /* giphy-8 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41E1DDBC37300ADE68B /* giphy-8 (dragged).jpg */; };
+		D829B4381DDBC37300ADE68B /* giphy-9 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B41F1DDBC37300ADE68B /* giphy-9 (dragged).jpg */; };
+		D829B4391DDBC37300ADE68B /* giphy-10 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4201DDBC37300ADE68B /* giphy-10 (dragged).jpg */; };
+		D829B43A1DDBC37300ADE68B /* giphy-11 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4211DDBC37300ADE68B /* giphy-11 (dragged).jpg */; };
+		D829B43B1DDBC37300ADE68B /* giphy-12 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4221DDBC37300ADE68B /* giphy-12 (dragged).jpg */; };
+		D829B43C1DDBC37300ADE68B /* giphy-13 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4231DDBC37300ADE68B /* giphy-13 (dragged).jpg */; };
+		D829B43D1DDBC37300ADE68B /* giphy-14 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4241DDBC37300ADE68B /* giphy-14 (dragged).jpg */; };
+		D829B43E1DDBC37300ADE68B /* giphy-15 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4251DDBC37300ADE68B /* giphy-15 (dragged).jpg */; };
+		D829B43F1DDBC37300ADE68B /* giphy-16 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4261DDBC37300ADE68B /* giphy-16 (dragged).jpg */; };
+		D829B4401DDBC37300ADE68B /* giphy-17 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4271DDBC37300ADE68B /* giphy-17 (dragged).jpg */; };
+		D829B4411DDBC37300ADE68B /* giphy-18 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4281DDBC37300ADE68B /* giphy-18 (dragged).jpg */; };
+		D829B4421DDBC37300ADE68B /* giphy-19 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B4291DDBC37300ADE68B /* giphy-19 (dragged).jpg */; };
+		D829B4431DDBC37300ADE68B /* giphy-20 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42A1DDBC37300ADE68B /* giphy-20 (dragged).jpg */; };
+		D829B4441DDBC37300ADE68B /* giphy-21 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42B1DDBC37300ADE68B /* giphy-21 (dragged).jpg */; };
+		D829B4451DDBC37300ADE68B /* giphy-22 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42C1DDBC37300ADE68B /* giphy-22 (dragged).jpg */; };
+		D829B4461DDBC37300ADE68B /* giphy-23 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42D1DDBC37300ADE68B /* giphy-23 (dragged).jpg */; };
+		D829B4471DDBC37300ADE68B /* giphy-24 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42E1DDBC37300ADE68B /* giphy-24 (dragged).jpg */; };
+		D829B4481DDBC37300ADE68B /* giphy-25 (dragged).jpg in Resources */ = {isa = PBXBuildFile; fileRef = D829B42F1DDBC37300ADE68B /* giphy-25 (dragged).jpg */; };
+		D82B90771DEF0F16002876EF /* AppLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = D82B90761DEF0F16002876EF /* AppLogo.png */; };
+		D82DE6671E4B600600A1245D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6661E4B600600A1245D /* Main.storyboard */; };
+		D82DE6691E4B604E00A1245D /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6681E4B604E00A1245D /* bubble.png */; };
+		D82DE66B1E4B607100A1245D /* HouseOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE66A1E4B607100A1245D /* HouseOutline.png */; };
+		D82DE6701E4B61E100A1245D /* greenhousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE66C1E4B61E100A1245D /* greenhousey.png */; };
+		D82DE6711E4B61E100A1245D /* magentahousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE66D1E4B61E100A1245D /* magentahousey.png */; };
+		D82DE6721E4B61E100A1245D /* orangehousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE66E1E4B61E100A1245D /* orangehousey.png */; };
+		D82DE6731E4B61E100A1245D /* yellowhousey.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE66F1E4B61E100A1245D /* yellowhousey.png */; };
+		D82DE6761E4B621900A1245D /* AverageTracker.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6741E4B621900A1245D /* AverageTracker.png */; };
+		D82DE6771E4B621900A1245D /* AverageSVR.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6751E4B621900A1245D /* AverageSVR.png */; };
+		D82DE67B1E4B697800A1245D /* HighInterestTracker.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6781E4B697800A1245D /* HighInterestTracker.png-1.png */; };
+		D82DE67C1E4B697800A1245D /* HighInterestTracker.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6791E4B697800A1245D /* HighInterestTracker.png-2.png */; };
+		D82DE67D1E4B697800A1245D /* HighInterestTracker.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE67A1E4B697800A1245D /* HighInterestTracker.png-3.png */; };
+		D82DE6811E4B698E00A1245D /* AverageInterestTracker.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE67E1E4B698E00A1245D /* AverageInterestTracker.png-1.png */; };
+		D82DE6821E4B698E00A1245D /* AverageInterestTracker.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE67F1E4B698E00A1245D /* AverageInterestTracker.png-2.png */; };
+		D82DE6831E4B698E00A1245D /* AverageInterestTracker.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6801E4B698E00A1245D /* AverageInterestTracker.png-3.png */; };
+		D82DE6871E4B699D00A1245D /* LowInterestTracker.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6841E4B699D00A1245D /* LowInterestTracker.png-1.png */; };
+		D82DE6881E4B699D00A1245D /* LowInterestTracker.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6851E4B699D00A1245D /* LowInterestTracker.png-2.png */; };
+		D82DE6891E4B699D00A1245D /* LowInterestTracker.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6861E4B699D00A1245D /* LowInterestTracker.png-3.png */; };
+		D82DE68D1E4B69A900A1245D /* HighInterestDiscount.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE68A1E4B69A900A1245D /* HighInterestDiscount.png-1.png */; };
+		D82DE68E1E4B69A900A1245D /* HighInterestDiscount.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE68B1E4B69A900A1245D /* HighInterestDiscount.png-2.png */; };
+		D82DE68F1E4B69A900A1245D /* HighInterestDiscount.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE68C1E4B69A900A1245D /* HighInterestDiscount.png-3.png */; };
+		D82DE6931E4B6A4600A1245D /* AverageInterestDiscount.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6901E4B6A4600A1245D /* AverageInterestDiscount.png-1.png */; };
+		D82DE6941E4B6A4600A1245D /* AverageInterestDiscount.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6911E4B6A4600A1245D /* AverageInterestDiscount.png-2.png */; };
+		D82DE6951E4B6A4600A1245D /* AverageInterestDiscount.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6921E4B6A4600A1245D /* AverageInterestDiscount.png-3.png */; };
+		D82DE6991E4B6A5400A1245D /* LowInterestDiscount.png-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6961E4B6A5400A1245D /* LowInterestDiscount.png-1.png */; };
+		D82DE69A1E4B6A5400A1245D /* LowInterestDiscount.png-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6971E4B6A5400A1245D /* LowInterestDiscount.png-2.png */; };
+		D82DE69B1E4B6A5400A1245D /* LowInterestDiscount.png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D82DE6981E4B6A5400A1245D /* LowInterestDiscount.png-3.png */; };
+		D845269F1DD4C1DE00CA0B9E /* TrackerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845269E1DD4C1DE00CA0B9E /* TrackerVC.swift */; };
+		D89CFB8E1DEDEE4A00714A0E /* AppLogoTransparent.png in Resources */ = {isa = PBXBuildFile; fileRef = D89CFB8D1DEDEE4A00714A0E /* AppLogoTransparent.png */; };
+		D8AB72AE1E3626A2002EFA12 /* DiscountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AB72AD1E3626A2002EFA12 /* DiscountVC.swift */; };
+		D8AB72B01E37D074002EFA12 /* Tracker1.png in Resources */ = {isa = PBXBuildFile; fileRef = D8AB72AF1E37D074002EFA12 /* Tracker1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		753A55BD1BB073E900254F27 /* MortgageAssistance&LearningTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MortgageAssistance&LearningTool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		753A55C11BB073E900254F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753A55C21BB073E900254F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		753A55C91BB073E900254F27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		753A55CC1BB073E900254F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		753A55E21BB0753B00254F27 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		753A55E41BB0755100254F27 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D80A30B31E37E4F100226FE4 /* houseymchouseface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseymchouseface.png; sourceTree = "<group>"; };
+		D821941E1E3B6B4B009E0166 /* Tracker_MortgageBreakdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker_MortgageBreakdown.png; sourceTree = "<group>"; };
+		D82194201E3B6E54009E0166 /* FixedRateFormula.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateFormula.png; sourceTree = "<group>"; };
+		D82194221E3B6F78009E0166 /* Tracker_ExampleMortgage1Calc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker_ExampleMortgage1Calc.png; sourceTree = "<group>"; };
+		D82194231E3B6F78009E0166 /* Tracker_ExampleMortgage1Ans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker_ExampleMortgage1Ans.png; sourceTree = "<group>"; };
+		D82194261E3B757A009E0166 /* Tracker_TotAmountPaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker_TotAmountPaid.png; sourceTree = "<group>"; };
+		D82194281E3B77D9009E0166 /* Tracker_InterestCalc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker_InterestCalc.png; sourceTree = "<group>"; };
+		D821942D1E3BA1AA009E0166 /* TraAveFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraAveFutRatVC.swift; sourceTree = "<group>"; };
+		D821942F1E3BA1CE009E0166 /* TraNegFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraNegFutRatVC.swift; sourceTree = "<group>"; };
+		D82194311E3BA1DE009E0166 /* DisPosFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisPosFutRatVC.swift; sourceTree = "<group>"; };
+		D82194331E3BA1EE009E0166 /* DisAveFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisAveFutRatVC.swift; sourceTree = "<group>"; };
+		D82194351E3BA201009E0166 /* DisNegFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisNegFutRatVC.swift; sourceTree = "<group>"; };
+		D82194371E3BA7FB009E0166 /* TraPosFutRatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraPosFutRatVC.swift; sourceTree = "<group>"; };
+		D82194391E40F8AA009E0166 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		D821943B1E41014F009E0166 /* CBodger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CBodger.png; sourceTree = "<group>"; };
+		D821943C1E41014F009E0166 /* HTong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HTong.jpg; sourceTree = "<group>"; };
+		D821943F1E410461009E0166 /* HouseyInspiration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HouseyInspiration.jpg; sourceTree = "<group>"; };
+		D82194411E4116C6009E0166 /* thumbsuphousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbsuphousey.png; sourceTree = "<group>"; };
+		D82194431E411911009E0166 /* Mark-Kelmanson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mark-Kelmanson.png"; sourceTree = "<group>"; };
+		D82194451E41192E009E0166 /* Onno-Bokhove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Onno-Bokhove.png"; sourceTree = "<group>"; };
+		D82194471E4201C9009E0166 /* FormulaDeriveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormulaDeriveVC.swift; sourceTree = "<group>"; };
+		D82194491E421A76009E0166 /* FixedRateExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateExample.png; sourceTree = "<group>"; };
+		D821944B1E422706009E0166 /* FixedRateProof1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof1.png; sourceTree = "<group>"; };
+		D821944C1E422706009E0166 /* FixedRateProof2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof2.png; sourceTree = "<group>"; };
+		D821944D1E422706009E0166 /* FixedRateProof3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof3.png; sourceTree = "<group>"; };
+		D821944E1E422706009E0166 /* FixedRateProof4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof4.png; sourceTree = "<group>"; };
+		D82194531E42280A009E0166 /* FixedRateProof5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof5.png; sourceTree = "<group>"; };
+		D82194541E42280A009E0166 /* FixedRateProof6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FixedRateProof6.png; sourceTree = "<group>"; };
+		D82194591E4230B0009E0166 /* HouseyBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HouseyBubble.png; sourceTree = "<group>"; };
+		D825D1FC1E53394C0058E1B4 /* SummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryVC.swift; sourceTree = "<group>"; };
+		D825D1FE1E533D880058E1B4 /* redhousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redhousey.png; sourceTree = "<group>"; };
+		D825D2001E5471A90058E1B4 /* graph1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph1.png; sourceTree = "<group>"; };
+		D825D2011E5471A90058E1B4 /* graph2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph2.png; sourceTree = "<group>"; };
+		D825D2021E5471A90058E1B4 /* graph3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph3.png; sourceTree = "<group>"; };
+		D825D2031E5471A90058E1B4 /* graph4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph4.png; sourceTree = "<group>"; };
+		D829B4151DDBC28700ADE68B /* LandingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
+		D829B4171DDBC37300ADE68B /* giphy-1 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-1 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4181DDBC37300ADE68B /* giphy-2 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-2 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4191DDBC37300ADE68B /* giphy-3 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-3 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41A1DDBC37300ADE68B /* giphy-4 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-4 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41B1DDBC37300ADE68B /* giphy-5 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-5 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41C1DDBC37300ADE68B /* giphy-6 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-6 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41D1DDBC37300ADE68B /* giphy-7 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-7 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41E1DDBC37300ADE68B /* giphy-8 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-8 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B41F1DDBC37300ADE68B /* giphy-9 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-9 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4201DDBC37300ADE68B /* giphy-10 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-10 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4211DDBC37300ADE68B /* giphy-11 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-11 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4221DDBC37300ADE68B /* giphy-12 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-12 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4231DDBC37300ADE68B /* giphy-13 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-13 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4241DDBC37300ADE68B /* giphy-14 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-14 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4251DDBC37300ADE68B /* giphy-15 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-15 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4261DDBC37300ADE68B /* giphy-16 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-16 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4271DDBC37300ADE68B /* giphy-17 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-17 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4281DDBC37300ADE68B /* giphy-18 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-18 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B4291DDBC37300ADE68B /* giphy-19 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-19 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42A1DDBC37300ADE68B /* giphy-20 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-20 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42B1DDBC37300ADE68B /* giphy-21 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-21 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42C1DDBC37300ADE68B /* giphy-22 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-22 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42D1DDBC37300ADE68B /* giphy-23 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-23 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42E1DDBC37300ADE68B /* giphy-24 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-24 (dragged).jpg"; sourceTree = "<group>"; };
+		D829B42F1DDBC37300ADE68B /* giphy-25 (dragged).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giphy-25 (dragged).jpg"; sourceTree = "<group>"; };
+		D82B90761DEF0F16002876EF /* AppLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogo.png; sourceTree = "<group>"; };
+		D82DE6661E4B600600A1245D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D82DE6681E4B604E00A1245D /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		D82DE66A1E4B607100A1245D /* HouseOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HouseOutline.png; sourceTree = "<group>"; };
+		D82DE66C1E4B61E100A1245D /* greenhousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenhousey.png; sourceTree = "<group>"; };
+		D82DE66D1E4B61E100A1245D /* magentahousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentahousey.png; sourceTree = "<group>"; };
+		D82DE66E1E4B61E100A1245D /* orangehousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangehousey.png; sourceTree = "<group>"; };
+		D82DE66F1E4B61E100A1245D /* yellowhousey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowhousey.png; sourceTree = "<group>"; };
+		D82DE6741E4B621900A1245D /* AverageTracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AverageTracker.png; sourceTree = "<group>"; };
+		D82DE6751E4B621900A1245D /* AverageSVR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AverageSVR.png; sourceTree = "<group>"; };
+		D82DE6781E4B697800A1245D /* HighInterestTracker.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestTracker.png-1.png"; sourceTree = "<group>"; };
+		D82DE6791E4B697800A1245D /* HighInterestTracker.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestTracker.png-2.png"; sourceTree = "<group>"; };
+		D82DE67A1E4B697800A1245D /* HighInterestTracker.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestTracker.png-3.png"; sourceTree = "<group>"; };
+		D82DE67E1E4B698E00A1245D /* AverageInterestTracker.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestTracker.png-1.png"; sourceTree = "<group>"; };
+		D82DE67F1E4B698E00A1245D /* AverageInterestTracker.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestTracker.png-2.png"; sourceTree = "<group>"; };
+		D82DE6801E4B698E00A1245D /* AverageInterestTracker.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestTracker.png-3.png"; sourceTree = "<group>"; };
+		D82DE6841E4B699D00A1245D /* LowInterestTracker.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestTracker.png-1.png"; sourceTree = "<group>"; };
+		D82DE6851E4B699D00A1245D /* LowInterestTracker.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestTracker.png-2.png"; sourceTree = "<group>"; };
+		D82DE6861E4B699D00A1245D /* LowInterestTracker.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestTracker.png-3.png"; sourceTree = "<group>"; };
+		D82DE68A1E4B69A900A1245D /* HighInterestDiscount.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestDiscount.png-1.png"; sourceTree = "<group>"; };
+		D82DE68B1E4B69A900A1245D /* HighInterestDiscount.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestDiscount.png-2.png"; sourceTree = "<group>"; };
+		D82DE68C1E4B69A900A1245D /* HighInterestDiscount.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HighInterestDiscount.png-3.png"; sourceTree = "<group>"; };
+		D82DE6901E4B6A4600A1245D /* AverageInterestDiscount.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestDiscount.png-1.png"; sourceTree = "<group>"; };
+		D82DE6911E4B6A4600A1245D /* AverageInterestDiscount.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestDiscount.png-2.png"; sourceTree = "<group>"; };
+		D82DE6921E4B6A4600A1245D /* AverageInterestDiscount.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AverageInterestDiscount.png-3.png"; sourceTree = "<group>"; };
+		D82DE6961E4B6A5400A1245D /* LowInterestDiscount.png-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestDiscount.png-1.png"; sourceTree = "<group>"; };
+		D82DE6971E4B6A5400A1245D /* LowInterestDiscount.png-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestDiscount.png-2.png"; sourceTree = "<group>"; };
+		D82DE6981E4B6A5400A1245D /* LowInterestDiscount.png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LowInterestDiscount.png-3.png"; sourceTree = "<group>"; };
+		D845269E1DD4C1DE00CA0B9E /* TrackerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerVC.swift; sourceTree = "<group>"; };
+		D89CFB8D1DEDEE4A00714A0E /* AppLogoTransparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppLogoTransparent.png; sourceTree = "<group>"; };
+		D8AB72AD1E3626A2002EFA12 /* DiscountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountVC.swift; sourceTree = "<group>"; };
+		D8AB72AF1E37D074002EFA12 /* Tracker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tracker1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		753A55BA1BB073E900254F27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		753A55B41BB073E900254F27 = {
+			isa = PBXGroup;
+			children = (
+				753A55BF1BB073E900254F27 /* AKSwiftSlideMenu */,
+				753A55BE1BB073E900254F27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		753A55BE1BB073E900254F27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				753A55BD1BB073E900254F27 /* MortgageAssistance&LearningTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		753A55BF1BB073E900254F27 /* AKSwiftSlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				753A55C21BB073E900254F27 /* AppDelegate.swift */,
+				D8AB72AD1E3626A2002EFA12 /* DiscountVC.swift */,
+				D825D1FC1E53394C0058E1B4 /* SummaryVC.swift */,
+				D82194391E40F8AA009E0166 /* AboutVC.swift */,
+				C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */,
+				D821942A1E3BA16E009E0166 /* Future Rates */,
+				D845269E1DD4C1DE00CA0B9E /* TrackerVC.swift */,
+				D82194471E4201C9009E0166 /* FormulaDeriveVC.swift */,
+				D829B4151DDBC28700ADE68B /* LandingVC.swift */,
+				753A55E41BB0755100254F27 /* BaseViewController.swift */,
+				753A55E21BB0753B00254F27 /* MenuViewController.swift */,
+				C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */,
+				753A55C91BB073E900254F27 /* Images.xcassets */,
+				D82DE6661E4B600600A1245D /* Main.storyboard */,
+				753A55CB1BB073E900254F27 /* LaunchScreen.xib */,
+				753A55C01BB073E900254F27 /* Supporting Files */,
+			);
+			path = AKSwiftSlideMenu;
+			sourceTree = "<group>";
+		};
+		753A55C01BB073E900254F27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D825D2001E5471A90058E1B4 /* graph1.png */,
+				D825D2011E5471A90058E1B4 /* graph2.png */,
+				D825D2021E5471A90058E1B4 /* graph3.png */,
+				D825D2031E5471A90058E1B4 /* graph4.png */,
+				D82DE6781E4B697800A1245D /* HighInterestTracker.png-1.png */,
+				D82DE6791E4B697800A1245D /* HighInterestTracker.png-2.png */,
+				D82DE67A1E4B697800A1245D /* HighInterestTracker.png-3.png */,
+				D82DE67E1E4B698E00A1245D /* AverageInterestTracker.png-1.png */,
+				D825D1FE1E533D880058E1B4 /* redhousey.png */,
+				D82DE67F1E4B698E00A1245D /* AverageInterestTracker.png-2.png */,
+				D82DE6801E4B698E00A1245D /* AverageInterestTracker.png-3.png */,
+				D82DE6841E4B699D00A1245D /* LowInterestTracker.png-1.png */,
+				D82DE6851E4B699D00A1245D /* LowInterestTracker.png-2.png */,
+				D82DE6861E4B699D00A1245D /* LowInterestTracker.png-3.png */,
+				D82DE68A1E4B69A900A1245D /* HighInterestDiscount.png-1.png */,
+				D82DE68B1E4B69A900A1245D /* HighInterestDiscount.png-2.png */,
+				D82DE68C1E4B69A900A1245D /* HighInterestDiscount.png-3.png */,
+				D82DE6901E4B6A4600A1245D /* AverageInterestDiscount.png-1.png */,
+				D82DE6911E4B6A4600A1245D /* AverageInterestDiscount.png-2.png */,
+				D82DE6921E4B6A4600A1245D /* AverageInterestDiscount.png-3.png */,
+				D82DE6961E4B6A5400A1245D /* LowInterestDiscount.png-1.png */,
+				D82DE6971E4B6A5400A1245D /* LowInterestDiscount.png-2.png */,
+				D82DE6981E4B6A5400A1245D /* LowInterestDiscount.png-3.png */,
+				D82DE6741E4B621900A1245D /* AverageTracker.png */,
+				D82DE6751E4B621900A1245D /* AverageSVR.png */,
+				D82DE66A1E4B607100A1245D /* HouseOutline.png */,
+				D82DE66C1E4B61E100A1245D /* greenhousey.png */,
+				D82DE66D1E4B61E100A1245D /* magentahousey.png */,
+				D82DE66E1E4B61E100A1245D /* orangehousey.png */,
+				D82DE66F1E4B61E100A1245D /* yellowhousey.png */,
+				D82DE6681E4B604E00A1245D /* bubble.png */,
+				D821944B1E422706009E0166 /* FixedRateProof1.png */,
+				D82194591E4230B0009E0166 /* HouseyBubble.png */,
+				D821944C1E422706009E0166 /* FixedRateProof2.png */,
+				D821944D1E422706009E0166 /* FixedRateProof3.png */,
+				D821944E1E422706009E0166 /* FixedRateProof4.png */,
+				D82194531E42280A009E0166 /* FixedRateProof5.png */,
+				D82194541E42280A009E0166 /* FixedRateProof6.png */,
+				D82194491E421A76009E0166 /* FixedRateExample.png */,
+				D82194411E4116C6009E0166 /* thumbsuphousey.png */,
+				D821943F1E410461009E0166 /* HouseyInspiration.jpg */,
+				D821943B1E41014F009E0166 /* CBodger.png */,
+				D82194431E411911009E0166 /* Mark-Kelmanson.png */,
+				D82194451E41192E009E0166 /* Onno-Bokhove.png */,
+				D821943C1E41014F009E0166 /* HTong.jpg */,
+				D82B90761DEF0F16002876EF /* AppLogo.png */,
+				D89CFB8D1DEDEE4A00714A0E /* AppLogoTransparent.png */,
+				D8AB72AF1E37D074002EFA12 /* Tracker1.png */,
+				D80A30B31E37E4F100226FE4 /* houseymchouseface.png */,
+				D821941E1E3B6B4B009E0166 /* Tracker_MortgageBreakdown.png */,
+				D82194201E3B6E54009E0166 /* FixedRateFormula.png */,
+				D82194221E3B6F78009E0166 /* Tracker_ExampleMortgage1Calc.png */,
+				D82194231E3B6F78009E0166 /* Tracker_ExampleMortgage1Ans.png */,
+				D82194261E3B757A009E0166 /* Tracker_TotAmountPaid.png */,
+				D82194281E3B77D9009E0166 /* Tracker_InterestCalc.png */,
+				D83C38631DEBA07000B2AC8C /* Landing Gif */,
+				753A55C11BB073E900254F27 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D821942A1E3BA16E009E0166 /* Future Rates */ = {
+			isa = PBXGroup;
+			children = (
+				D82194371E3BA7FB009E0166 /* TraPosFutRatVC.swift */,
+				D821942D1E3BA1AA009E0166 /* TraAveFutRatVC.swift */,
+				D821942F1E3BA1CE009E0166 /* TraNegFutRatVC.swift */,
+				D82194311E3BA1DE009E0166 /* DisPosFutRatVC.swift */,
+				D82194331E3BA1EE009E0166 /* DisAveFutRatVC.swift */,
+				D82194351E3BA201009E0166 /* DisNegFutRatVC.swift */,
+			);
+			name = "Future Rates";
+			sourceTree = "<group>";
+		};
+		D83C38631DEBA07000B2AC8C /* Landing Gif */ = {
+			isa = PBXGroup;
+			children = (
+				D829B4171DDBC37300ADE68B /* giphy-1 (dragged).jpg */,
+				D829B4181DDBC37300ADE68B /* giphy-2 (dragged).jpg */,
+				D829B4191DDBC37300ADE68B /* giphy-3 (dragged).jpg */,
+				D829B41A1DDBC37300ADE68B /* giphy-4 (dragged).jpg */,
+				D829B41B1DDBC37300ADE68B /* giphy-5 (dragged).jpg */,
+				D829B41C1DDBC37300ADE68B /* giphy-6 (dragged).jpg */,
+				D829B41D1DDBC37300ADE68B /* giphy-7 (dragged).jpg */,
+				D829B41E1DDBC37300ADE68B /* giphy-8 (dragged).jpg */,
+				D829B41F1DDBC37300ADE68B /* giphy-9 (dragged).jpg */,
+				D829B4201DDBC37300ADE68B /* giphy-10 (dragged).jpg */,
+				D829B4211DDBC37300ADE68B /* giphy-11 (dragged).jpg */,
+				D829B4221DDBC37300ADE68B /* giphy-12 (dragged).jpg */,
+				D829B4231DDBC37300ADE68B /* giphy-13 (dragged).jpg */,
+				D829B4241DDBC37300ADE68B /* giphy-14 (dragged).jpg */,
+				D829B4251DDBC37300ADE68B /* giphy-15 (dragged).jpg */,
+				D829B4261DDBC37300ADE68B /* giphy-16 (dragged).jpg */,
+				D829B4271DDBC37300ADE68B /* giphy-17 (dragged).jpg */,
+				D829B4281DDBC37300ADE68B /* giphy-18 (dragged).jpg */,
+				D829B4291DDBC37300ADE68B /* giphy-19 (dragged).jpg */,
+				D829B42A1DDBC37300ADE68B /* giphy-20 (dragged).jpg */,
+				D829B42B1DDBC37300ADE68B /* giphy-21 (dragged).jpg */,
+				D829B42C1DDBC37300ADE68B /* giphy-22 (dragged).jpg */,
+				D829B42D1DDBC37300ADE68B /* giphy-23 (dragged).jpg */,
+				D829B42E1DDBC37300ADE68B /* giphy-24 (dragged).jpg */,
+				D829B42F1DDBC37300ADE68B /* giphy-25 (dragged).jpg */,
+			);
+			name = "Landing Gif";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		753A55BC1BB073E900254F27 /* MortgageAssistance&LearningTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "MortgageAssistance&LearningTool" */;
+			buildPhases = (
+				753A55B91BB073E900254F27 /* Sources */,
+				753A55BA1BB073E900254F27 /* Frameworks */,
+				753A55BB1BB073E900254F27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MortgageAssistance&LearningTool";
+			productName = AKSwiftSlideMenu;
+			productReference = 753A55BD1BB073E900254F27 /* MortgageAssistance&LearningTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		753A55B51BB073E900254F27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Kode;
+				TargetAttributes = {
+					753A55BC1BB073E900254F27 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5KBJPA35ZB;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 753A55B81BB073E900254F27 /* Build configuration list for PBXProject "MortgageAssistance&LearningTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 753A55B41BB073E900254F27;
+			productRefGroup = 753A55BE1BB073E900254F27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				753A55BC1BB073E900254F27 /* MortgageAssistance&LearningTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		753A55BB1BB073E900254F27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D825D2041E5471A90058E1B4 /* graph1.png in Resources */,
+				D829B4371DDBC37300ADE68B /* giphy-8 (dragged).jpg in Resources */,
+				D829B4481DDBC37300ADE68B /* giphy-25 (dragged).jpg in Resources */,
+				D82194241E3B6F78009E0166 /* Tracker_ExampleMortgage1Calc.png in Resources */,
+				D82DE67D1E4B697800A1245D /* HighInterestTracker.png-3.png in Resources */,
+				D82194521E422706009E0166 /* FixedRateProof4.png in Resources */,
+				D829B43B1DDBC37300ADE68B /* giphy-12 (dragged).jpg in Resources */,
+				D821944F1E422706009E0166 /* FixedRateProof1.png in Resources */,
+				D821943D1E41014F009E0166 /* CBodger.png in Resources */,
+				D82DE6671E4B600600A1245D /* Main.storyboard in Resources */,
+				D82DE67C1E4B697800A1245D /* HighInterestTracker.png-2.png in Resources */,
+				D82DE68E1E4B69A900A1245D /* HighInterestDiscount.png-2.png in Resources */,
+				D82DE68F1E4B69A900A1245D /* HighInterestDiscount.png-3.png in Resources */,
+				D82DE6941E4B6A4600A1245D /* AverageInterestDiscount.png-2.png in Resources */,
+				D82194401E410461009E0166 /* HouseyInspiration.jpg in Resources */,
+				D82DE6991E4B6A5400A1245D /* LowInterestDiscount.png-1.png in Resources */,
+				D829B4361DDBC37300ADE68B /* giphy-7 (dragged).jpg in Resources */,
+				D82194291E3B77D9009E0166 /* Tracker_InterestCalc.png in Resources */,
+				D829B43F1DDBC37300ADE68B /* giphy-16 (dragged).jpg in Resources */,
+				D829B4451DDBC37300ADE68B /* giphy-22 (dragged).jpg in Resources */,
+				D829B4431DDBC37300ADE68B /* giphy-20 (dragged).jpg in Resources */,
+				D82DE69B1E4B6A5400A1245D /* LowInterestDiscount.png-3.png in Resources */,
+				D82DE6711E4B61E100A1245D /* magentahousey.png in Resources */,
+				D82DE6881E4B699D00A1245D /* LowInterestTracker.png-2.png in Resources */,
+				D829B4421DDBC37300ADE68B /* giphy-19 (dragged).jpg in Resources */,
+				D829B43A1DDBC37300ADE68B /* giphy-11 (dragged).jpg in Resources */,
+				D829B4321DDBC37300ADE68B /* giphy-3 (dragged).jpg in Resources */,
+				D82DE6821E4B698E00A1245D /* AverageInterestTracker.png-2.png in Resources */,
+				D80A30B51E37E4F100226FE4 /* houseymchouseface.png in Resources */,
+				D82DE6931E4B6A4600A1245D /* AverageInterestDiscount.png-1.png in Resources */,
+				D82194441E411912009E0166 /* Mark-Kelmanson.png in Resources */,
+				D8AB72B01E37D074002EFA12 /* Tracker1.png in Resources */,
+				D829B4401DDBC37300ADE68B /* giphy-17 (dragged).jpg in Resources */,
+				D829B4471DDBC37300ADE68B /* giphy-24 (dragged).jpg in Resources */,
+				D829B4311DDBC37300ADE68B /* giphy-2 (dragged).jpg in Resources */,
+				D825D1FF1E533D880058E1B4 /* redhousey.png in Resources */,
+				D829B43C1DDBC37300ADE68B /* giphy-13 (dragged).jpg in Resources */,
+				D829B4391DDBC37300ADE68B /* giphy-10 (dragged).jpg in Resources */,
+				D82194561E42280A009E0166 /* FixedRateProof6.png in Resources */,
+				D82DE68D1E4B69A900A1245D /* HighInterestDiscount.png-1.png in Resources */,
+				D89CFB8E1DEDEE4A00714A0E /* AppLogoTransparent.png in Resources */,
+				D829B4331DDBC37300ADE68B /* giphy-4 (dragged).jpg in Resources */,
+				D82DE6761E4B621900A1245D /* AverageTracker.png in Resources */,
+				D82194271E3B757A009E0166 /* Tracker_TotAmountPaid.png in Resources */,
+				D829B4441DDBC37300ADE68B /* giphy-21 (dragged).jpg in Resources */,
+				D829B4461DDBC37300ADE68B /* giphy-23 (dragged).jpg in Resources */,
+				D829B4351DDBC37300ADE68B /* giphy-6 (dragged).jpg in Resources */,
+				D821944A1E421A76009E0166 /* FixedRateExample.png in Resources */,
+				D82DE69A1E4B6A5400A1245D /* LowInterestDiscount.png-2.png in Resources */,
+				D829B4381DDBC37300ADE68B /* giphy-9 (dragged).jpg in Resources */,
+				D82DE67B1E4B697800A1245D /* HighInterestTracker.png-1.png in Resources */,
+				D82DE6691E4B604E00A1245D /* bubble.png in Resources */,
+				753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */,
+				D82194501E422706009E0166 /* FixedRateProof2.png in Resources */,
+				D82DE6891E4B699D00A1245D /* LowInterestTracker.png-3.png in Resources */,
+				D82DE6731E4B61E100A1245D /* yellowhousey.png in Resources */,
+				D82DE66B1E4B607100A1245D /* HouseOutline.png in Resources */,
+				D82DE6721E4B61E100A1245D /* orangehousey.png in Resources */,
+				D829B4301DDBC37300ADE68B /* giphy-1 (dragged).jpg in Resources */,
+				D829B4411DDBC37300ADE68B /* giphy-18 (dragged).jpg in Resources */,
+				D82DE6951E4B6A4600A1245D /* AverageInterestDiscount.png-3.png in Resources */,
+				D82DE6831E4B698E00A1245D /* AverageInterestTracker.png-3.png in Resources */,
+				D82194421E4116C6009E0166 /* thumbsuphousey.png in Resources */,
+				D82194551E42280A009E0166 /* FixedRateProof5.png in Resources */,
+				D825D2061E5471A90058E1B4 /* graph3.png in Resources */,
+				D829B4341DDBC37300ADE68B /* giphy-5 (dragged).jpg in Resources */,
+				D82DE6811E4B698E00A1245D /* AverageInterestTracker.png-1.png in Resources */,
+				753A55CA1BB073E900254F27 /* Images.xcassets in Resources */,
+				D825D2071E5471A90058E1B4 /* graph4.png in Resources */,
+				D82194461E41192E009E0166 /* Onno-Bokhove.png in Resources */,
+				D82DE6871E4B699D00A1245D /* LowInterestTracker.png-1.png in Resources */,
+				D82194211E3B6E54009E0166 /* FixedRateFormula.png in Resources */,
+				D821945A1E4230B0009E0166 /* HouseyBubble.png in Resources */,
+				D82DE6771E4B621900A1245D /* AverageSVR.png in Resources */,
+				D82B90771DEF0F16002876EF /* AppLogo.png in Resources */,
+				D82194251E3B6F78009E0166 /* Tracker_ExampleMortgage1Ans.png in Resources */,
+				D82DE6701E4B61E100A1245D /* greenhousey.png in Resources */,
+				D825D2051E5471A90058E1B4 /* graph2.png in Resources */,
+				D821941F1E3B6B4B009E0166 /* Tracker_MortgageBreakdown.png in Resources */,
+				D82194511E422706009E0166 /* FixedRateProof3.png in Resources */,
+				D829B43E1DDBC37300ADE68B /* giphy-15 (dragged).jpg in Resources */,
+				D829B43D1DDBC37300ADE68B /* giphy-14 (dragged).jpg in Resources */,
+				D821943E1E41014F009E0166 /* HTong.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		753A55B91BB073E900254F27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */,
+				D845269F1DD4C1DE00CA0B9E /* TrackerVC.swift in Sources */,
+				C6EEF9F61CB7E2AD00A3DC6D /* PlayVC.swift in Sources */,
+				D821942E1E3BA1AA009E0166 /* TraAveFutRatVC.swift in Sources */,
+				D825D1FD1E53394C0058E1B4 /* SummaryVC.swift in Sources */,
+				D82194341E3BA1EE009E0166 /* DisAveFutRatVC.swift in Sources */,
+				D82194321E3BA1DE009E0166 /* DisPosFutRatVC.swift in Sources */,
+				D82194301E3BA1CE009E0166 /* TraNegFutRatVC.swift in Sources */,
+				D82194361E3BA201009E0166 /* DisNegFutRatVC.swift in Sources */,
+				D829B4161DDBC28700ADE68B /* LandingVC.swift in Sources */,
+				C6EEF9F81CB7E4E000A3DC6D /* HomeVC.swift in Sources */,
+				753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */,
+				D821943A1E40F8AA009E0166 /* AboutVC.swift in Sources */,
+				D82194381E3BA7FB009E0166 /* TraPosFutRatVC.swift in Sources */,
+				753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */,
+				D82194481E4201C9009E0166 /* FormulaDeriveVC.swift in Sources */,
+				D8AB72AE1E3626A2002EFA12 /* DiscountVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		753A55CB1BB073E900254F27 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				753A55CC1BB073E900254F27 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		753A55DA1BB073E900254F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		753A55DB1BB073E900254F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		753A55DD1BB073E900254F27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KBJPA35ZB;
+				INFOPLIST_FILE = AKSwiftSlideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bodger.MortgageAssistance-LearningTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		753A55DE1BB073E900254F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5KBJPA35ZB;
+				INFOPLIST_FILE = AKSwiftSlideMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Bodger.MortgageAssistance-LearningTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		753A55B81BB073E900254F27 /* Build configuration list for PBXProject "MortgageAssistance&LearningTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753A55DA1BB073E900254F27 /* Debug */,
+				753A55DB1BB073E900254F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "MortgageAssistance&LearningTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				753A55DD1BB073E900254F27 /* Debug */,
+				753A55DE1BB073E900254F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 753A55B51BB073E900254F27 /* Project object */;
+}
