@@ -47,66 +47,66 @@ class DiscountVC: BaseViewController {
     
     @IBAction func answerA1(_ sender: Any) {
         buttonA1.backgroundColor = UIColor.green
-        buttonA1.setTitle("correct!", for: UIControlState.normal)
+        buttonA1.setTitle("correct!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonA1.setTitle("A₀", for: UIControlState.normal)
+            self.buttonA1.setTitle("A₀", for: UIControl.State.normal)
         }
     }
     @IBAction func answerA2(_ sender: Any) {
         buttonA2.backgroundColor = UIColor.red
-        buttonA2.setTitle("try again!", for: UIControlState.normal)
+        buttonA2.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonA2.setTitle("Nᵀ", for: UIControlState.normal)
+            self.buttonA2.setTitle("Nᵀ", for: UIControl.State.normal)
         }
     }
     @IBAction func answerA3(_ sender: Any) {
         buttonA3.backgroundColor = UIColor.red
-        buttonA3.setTitle("try again!", for: UIControlState.normal)
+        buttonA3.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonA3.setTitle("xₑ", for: UIControlState.normal)
+            self.buttonA3.setTitle("xₑ", for: UIControl.State.normal)
         }
     }
     @IBAction func answerB1(_ sender: Any) {
         buttonB1.backgroundColor = UIColor.red
-        buttonB1.setTitle("try again!", for: UIControlState.normal)
+        buttonB1.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonB1.setTitle("x", for: UIControlState.normal)
+            self.buttonB1.setTitle("x", for: UIControl.State.normal)
         }
     }
     @IBAction func answerB2(_ sender: Any) {
         buttonB2.backgroundColor = UIColor.red
-        buttonB2.setTitle("try again!", for: UIControlState.normal)
+        buttonB2.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonB2.setTitle("A₀", for: UIControlState.normal)
+            self.buttonB2.setTitle("A₀", for: UIControl.State.normal)
         }
 
     }
     @IBAction func answerB3(_ sender: Any) {
         buttonB3.backgroundColor = UIColor.green
-        buttonB3.setTitle("correct!", for: UIControlState.normal)
+        buttonB3.setTitle("correct!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonB3.setTitle("Nᵀ", for: UIControlState.normal)
+            self.buttonB3.setTitle("Nᵀ", for: UIControl.State.normal)
         }
     }
     @IBAction func answerC1(_ sender: Any) {
         buttonC1.backgroundColor = UIColor.red
-        buttonC1.setTitle("try again!", for: UIControlState.normal)
+        buttonC1.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonC1.setTitle("Nᵀ", for: UIControlState.normal)
+            self.buttonC1.setTitle("Nᵀ", for: UIControl.State.normal)
         }
     }
     @IBAction func answerC2(_ sender: Any) {
         buttonC2.backgroundColor = UIColor.red
-        buttonC2.setTitle("try again!", for: UIControlState.normal)
+        buttonC2.setTitle("try again!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonC2.setTitle("Nᵀ", for: UIControlState.normal)
+            self.buttonC2.setTitle("Nᵀ", for: UIControl.State.normal)
         }
     }
     @IBAction func answerC3(_ sender: Any) {
         buttonC3.backgroundColor = UIColor.green
-        buttonC3.setTitle("correct!", for: UIControlState.normal)
+        buttonC3.setTitle("correct!", for: UIControl.State.normal)
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            self.buttonC3.setTitle("xₑ", for: UIControlState.normal)
+            self.buttonC3.setTitle("xₑ", for: UIControl.State.normal)
         }
     }
     
@@ -149,7 +149,7 @@ class DiscountVC: BaseViewController {
     func letsDoThis(z: Float) -> Float {
         
         
-        var t = 241
+        let t = 241
         
         var T_1 = [Int]()
         
@@ -196,7 +196,7 @@ class DiscountVC: BaseViewController {
     @IBOutlet weak var AreYouCorrect: UITextField!
 
     @IBAction func Calculate(_ sender: Any) {
-        let car0 = (MortgageAmount.text as! NSString).doubleValue
+        let car0 = (MortgageAmount.text! as NSString).doubleValue
         let car1 = letsDoThis(z: Float(car0))
         let x = String(format: "%.2f", car1)
         CumulativeInterest.text = "\(x)"
